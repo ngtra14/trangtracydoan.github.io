@@ -3076,11 +3076,13 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
+			color : #000000;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+
 		}
 
 		#header.alt {
