@@ -3087,11 +3087,12 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 7em 5em 2em 5em ;
 		}
 
 			#header.alt h1 {
 				font-size: 3.25em;
+				color: 5e6472;
 			}
 
 			#header.alt > * {
