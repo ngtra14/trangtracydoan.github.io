@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body { 
 		
-		background: linear-gradient(to bottom, #00c6ff, #0072ff);
+		background: linear-gradient(to bottom,#90caf9, #bbdefb,#e3f2fd);
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -118,7 +118,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #0cdeed;
+		background-color: #e3f2fd;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -1955,7 +1955,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #e3f2fd;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -1965,7 +1965,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+				background-color: #e3f2fd;
 			}
 
 			input[type="submit"].primary:active,
@@ -1973,7 +1973,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+				background-color: #e3f2fd;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -3546,7 +3546,7 @@ input, select, textarea {
 		}
 
 		#main header.major h2:after {
-			background-color: linear-gradient(to bottom, #00c6ff, #0072ff)
+			background-color: linear-gradient(to bottom,#90caf9, #bbdefb,#e3f2fd)
 		}
 
 		#main table tbody tr {
