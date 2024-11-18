@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body { 
 		
-		background: linear-gradient(to bottom,#90caf9, #bbdefb,#e3f2fd);
+		background: linear-gradient(to bottom,#90caf9, #bbdefb);
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2165,7 +2165,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #8cc9f0;
+			background:#e3f2fd;
 		}
 
 	input[type="checkbox"] + label,
@@ -2882,23 +2882,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #8cc9f0;
+				background-color: #e3f2fd;
 			}
 
 			.statistics li.style2 {
-				background-color: #8cc9f0;
+				background-color: #e3f2fd;
 			}
 
 			.statistics li.style3 {
-				background-color: #8cc9f0;
+				background-color: #e3f2fd;
 			}
 
 			.statistics li.style4 {
-				background-color: #8cc9f0;
+				background-color: #e3f2fd;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #e3f2fd;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3412,7 +3412,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #e3f2fd;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3422,7 +3422,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color:#e3f2fd;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3430,7 +3430,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #7ec3ee;
+					background-color: #e3f2fd;
 				}
 
 				#main input[type="submit"].primary.icon:before,
