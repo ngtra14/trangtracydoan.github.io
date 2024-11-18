@@ -3070,24 +3070,27 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 3em 5em 1em 5em ;
 		text-align: center;
 	}
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
-			color : 5e6472;
+			color : #34495E;
+			font-family: 'Lato', sans-serif;
+
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
-			color : 5e6472;
+			color : #95A5A6;
+			font-style: italic;
 
 		}
 
 		#header.alt {
-			padding: 7em 5em 2em 5em ;
+			padding: 5em 5em 2em 5em ;
 		}
 
 			#header.alt h1 {
