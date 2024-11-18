@@ -3076,12 +3076,13 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
-			color : #000000;
+			color : 5e6472;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			color : 5e6472;
 
 		}
 
@@ -3692,12 +3693,14 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		color : #000000;
 	}
 
 		#footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
 		}
+
 
 		#footer .copyright {
 			width: 100%;
