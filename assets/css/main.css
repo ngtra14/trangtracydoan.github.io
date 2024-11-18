@@ -3076,15 +3076,16 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
-			color : #34495E;
+			color : #1e4eb5;
 			font-family: 'Lato', sans-serif;
+			font-size: 2em;
 
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1em;
 			letter-spacing: -0.025em;
-			color : #95A5A6;
+			color : #697879;
 			font-style: italic;
 
 		}
@@ -3349,6 +3350,7 @@ input, select, textarea {
 
 		#main input, #main select, #main textarea {
 			color: #000000;
+			font-size: 0.5em;  /*testingnewsize*/
 		}
 
 		#main a:hover {
@@ -3585,7 +3587,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 5em 3em 5em ; /*changing upper padding*/
 			border-top: solid 1px #dddddd;
 		}
 
