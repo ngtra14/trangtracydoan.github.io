@@ -100,7 +100,8 @@ input, select, textarea {
 
 	body { 
 		
-		background-image: linear-gradient(to bottom, #00c6ff, #0072ff);
+		background: linear-gradient(to bottom, #00c6ff, #0072ff);
+		color: rgba(255, 255, 255, 0.65);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2164,7 +2165,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #8cc9f0;
 		}
 
 	input[type="checkbox"] + label,
@@ -2182,7 +2183,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #8cc9f0;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2288,19 +2289,19 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #8cc9f0;
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #8cc9f0;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #8cc9f0;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #8cc9f0;
 		}
 
 		.icon.style5 {
@@ -2881,19 +2882,19 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #8cc9f0;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #8cc9f0;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #8cc9f0;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #8cc9f0;
 			}
 
 			.statistics li.style5 {
@@ -3545,11 +3546,7 @@ input, select, textarea {
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-color: linear-gradient(to bottom, #00c6ff, #0072ff)
 		}
 
 		#main table tbody tr {
