@@ -118,7 +118,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #e3f2fd;
+		background-color: #164c73;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -301,19 +301,19 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
+		color: fff;
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: fff;
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: fff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: fff;
 	}
 
 	blockquote {
@@ -1923,7 +1923,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff !important;
+		color: fff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1956,7 +1956,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #e3f2fd;
-			color: #ffffff !important;
+			color: fff !important;
 			box-shadow: none;
 		}
 
@@ -1981,7 +1981,7 @@ input, select, textarea {
 			input[type="button"].primary.icon:before,
 			button.primary.icon:before,
 			.button.primary.icon:before {
-				color: #ffffff !important;
+				color: fff !important;
 			}
 
 /* Form */
@@ -2138,7 +2138,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #ffffff;
+		color: fff;
 	}
 
 	input[type="text"],
@@ -2164,7 +2164,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
+			color: fff;
 			background:#e3f2fd;
 		}
 
@@ -2181,8 +2181,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #ffffff;
-		border-color: #ffffff;
+		background-color: fff;
+		border-color: fff;
 		color: #8cc9f0;
 	}
 
@@ -2347,7 +2347,7 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: fff;
 	}
 
 		.icon.alt:hover {
@@ -2486,7 +2486,7 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: fff;
 	}
 
 /* Actions */
@@ -2636,11 +2636,15 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 2em; /*3reduce header size*/
+		margin-bottom: 0em; /*3reduce header size*/
+		margin-top: 0.5em;
 	}
 
 		header.major h2 {
-			font-size: 1em; /*reduce header size*/
+			font-size: 1.5em; /*reduce header size*/
+			text-align: center;
+			font-weight:bold;
+
 		}
 
 			header.major h2:after {
@@ -2648,31 +2652,37 @@ input, select, textarea {
 				content: '';
 				width: 3.25em;
 				height: 2px;
-				margin: 0.7em 0 1em 0;
+				margin: 0.7em 0 0.3em 0;
 				border-radius: 2px;
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
 					margin-left: auto;
 					margin-right: auto;
+					margin-bottom: -1em;
+					margin-top: 1em
+					
 				}
 
 		header.major p {
 			font-size: 1em;
 			letter-spacing: -0.025em;
-			margin-top: 0.5em; /*adding margin*/
-			margin-bottom : 0.5em /*adding margin*/
+			margin-top: 1.5em; /*adding margin*/
+			margin-bottom : 0.5em; /*adding margin*/
+			
 		}
 
 		header.major.special {
 			text-align: center;
+			
+
 		}
 
 			header.major.special h2:after {
 				margin-left: auto;
 				margin-right: auto;
-				margin-top: 0.5em /*adding margin*/
-
+				margin-top: 0.5em; /*adding margin*/
+				margin-bottom: 0.5em; /*adding margin*/
 			}
 
 	footer.major {
@@ -2686,7 +2696,8 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				font-size: 1.5em;
+				font-size: 2em;
+
 			}
 
 			header.major p {
@@ -2704,9 +2715,10 @@ input, select, textarea {
 
 	}
 
-	header.major h2:after {
-		background-color: rgba(255, 255, 255, 0.35);
-	}
+	/*header.major h2:after{
+		background-color: rgba(139, 21, 21, 0.944);
+	
+	}*/
 
 /* Table */
 
@@ -2780,7 +2792,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #ffffff;
+		color: fff;
 	}
 
 	table thead {
@@ -2819,7 +2831,7 @@ input, select, textarea {
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
-			margin-top: 1.5em;  /*3em reduce padding*/
+			margin-top: 0.25em;  /*3em reduce padding*/
 			padding: 0;
 		}
 
@@ -2882,7 +2894,7 @@ input, select, textarea {
 			-ms-flex: 1;
 			flex: 1;
 			padding: 1.5em;
-			color: #ffffff;
+			color: fff;
 			text-align: center;
 		}
 
@@ -3081,7 +3093,7 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
-			color : #1e4eb5;
+			color : #000000;
 			font-family: 'Lato', sans-serif;
 			font-size: 2em;
 
@@ -3090,7 +3102,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1em;
 			letter-spacing: -0.025em;
-			color : #697879;
+			color : #070807;
 			font-style: italic;
 
 		}
@@ -3100,8 +3112,9 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-				font-size: 3.25em;
+				font-size: 1.5em;
 				color: 5e6472;
+				
 			}
 
 			#header.alt > * {
@@ -3226,13 +3239,14 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
+		/*background-color: fff;*/
 		color: #000000;
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
-		padding: 1em;
-		background-color: #f7f7f7;
+		width : 100%
+		/*width: 64em;
+		max-width: calc(100% - 4em); */
+		/*padding: 1em;*/
+		background-color: #6e7992;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3310,16 +3324,16 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: fff;
 						box-shadow: none;
 						color: #000000
 					}
 
 		#nav.alt {
-			position: fixed;
+			position: absolute;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: rgba(222, 222, 222, 0.25);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3348,7 +3362,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: fff;
 		color: #000000;
 		border-radius: 0.25em;
 	}
@@ -3376,16 +3390,15 @@ input, select, textarea {
 
 		#main code {
 			background: rgba(222, 222, 222, 0.25);
-			border-color: #dddddd;
+			/*border-color: #dddddd;*/
 		}
-
+		/*
 		#main hr {
 			border-bottom-color: #dddddd;
-		}
-
-		#main .box {
+		}*/
+		/*#main .box {
 			border-color: #dddddd;
-		}
+		}*/
 
 		#main input[type="submit"],
 		#main input[type="reset"],
@@ -3427,7 +3440,7 @@ input, select, textarea {
 			#main button.primary,
 			#main .button.primary {
 				background-color: #e3f2fd;
-				color: #ffffff !important;
+				color: fff !important;
 				box-shadow: none;
 			}
 
@@ -3452,7 +3465,7 @@ input, select, textarea {
 				#main input[type="button"].primary.icon:before,
 				#main button.primary.icon:before,
 				#main .button.primary.icon:before {
-					color: #ffffff !important;
+					color: fff !important;
 				}
 
 		#main label {
@@ -3483,7 +3496,7 @@ input, select, textarea {
 
 			#main select option {
 				color: #000000;
-				background: #ffffff;
+				background: fff;
 			}
 
 		#main input[type="checkbox"] + label,
@@ -3494,14 +3507,14 @@ input, select, textarea {
 			#main input[type="checkbox"] + label:before,
 			#main input[type="radio"] + label:before {
 				background: rgba(222, 222, 222, 0.25);
-				border-color: #dddddd;
+				/*border-color: #dddddd;*/
 			}
 
 		#main input[type="checkbox"]:checked + label:before,
 		#main input[type="radio"]:checked + label:before {
 			background-color: #000000;
 			border-color: #000000;
-			color: #ffffff;
+			color: fff;
 		}
 
 		#main input[type="checkbox"]:focus + label:before,
@@ -3718,7 +3731,7 @@ input, select, textarea {
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
 			text-align: center;
-			color : #697879
+			color : #0e0f0f
 		}
 
 
@@ -3747,6 +3760,7 @@ input, select, textarea {
 
 				#footer .copyright {
 					text-align: left;
+					color : #697879
 				}
 
 		}
