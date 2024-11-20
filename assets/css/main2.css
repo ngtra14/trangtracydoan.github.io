@@ -3108,12 +3108,13 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 5em 5em 2em 5em ;
+			padding: 4em 5em 0em 5em ; /*updating the distance between header */
 		}
 
 			#header.alt h1 {
 				font-size: 1.5em;
 				color: 5e6472;
+				
 				
 			}
 
@@ -3365,11 +3366,13 @@ input, select, textarea {
 		background-color: fff;
 		color: #000000;
 		border-radius: 0.25em;
+	
 	}
 
 		#main input, #main select, #main textarea {
 			color: #000000;
 			font-size: 0.5em;  /*testingnewsize*/
+			
 		}
 
 		#main a:hover {
@@ -3378,10 +3381,14 @@ input, select, textarea {
 
 		#main strong, #main b {
 			color: #000000;
+		
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
 			color: #000000;
+			margin-bottom: 0.5em;
+			font-size:35px;
+			font-style: bold;
 		}
 
 		#main blockquote {
@@ -3415,7 +3422,7 @@ input, select, textarea {
 			#main input[type="button"]:hover,
 			#main button:hover,
 			#main .button:hover {
-				background-color: rgba(222, 222, 222, 0.25);
+				background-color: rgba(81, 87, 101, 0.384);
 			}
 
 			#main input[type="submit"]:active,
@@ -3465,7 +3472,7 @@ input, select, textarea {
 				#main input[type="button"].primary.icon:before,
 				#main button.primary.icon:before,
 				#main .button.primary.icon:before {
-					color: fff !important;
+					color: #ffff !important;
 				}
 
 		#main label {
@@ -3496,7 +3503,7 @@ input, select, textarea {
 
 			#main select option {
 				color: #000000;
-				background: fff;
+				background: #fff;
 			}
 
 		#main input[type="checkbox"] + label,
@@ -3514,7 +3521,7 @@ input, select, textarea {
 		#main input[type="radio"]:checked + label:before {
 			background-color: #000000;
 			border-color: #000000;
-			color: fff;
+			color: #ffff;
 		}
 
 		#main input[type="checkbox"]:focus + label:before,
@@ -3566,10 +3573,12 @@ input, select, textarea {
 
 		#main ul.alt li {
 			border-top-color: #dddddd;
+			
 		}
 
 		#main dl dt {
 			color: #000000;
+			
 		}
 
 		#main header.major h2:after {
