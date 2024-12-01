@@ -102,6 +102,7 @@ input, select, textarea {
 		
 		background: linear-gradient(to bottom,#90caf9, #bbdefb);
 		color: rgba(255, 255, 255, 0.25);
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -113,6 +114,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+		
 		}
 
 /* Type */
@@ -3247,7 +3249,7 @@ input, select, textarea {
 		/*width: 64em;
 		max-width: calc(100% - 4em); */
 		/*padding: 1em;*/
-		background-color: #6e7992;
+		
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3804,6 +3806,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
+		margin-bottom: 0;
 	}
 
 		@media screen and (max-width: 480px) {
