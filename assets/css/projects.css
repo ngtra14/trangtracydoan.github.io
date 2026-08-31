@@ -58,18 +58,10 @@ nav a[aria-current="page"]::after {
 
 .page-hero-copy > p:not(.section-kicker) {
 	max-width: 730px;
-	margin: 28px 0 25px;
+	margin: 28px 0 0;
 	color: var(--muted);
 	font-size: clamp(1.05rem, 1.5vw, 1.22rem);
 	line-height: 1.75;
-}
-
-.page-hero .text-link span {
-	transition: transform 180ms ease;
-}
-
-.page-hero .text-link:hover span {
-	transform: translateY(4px);
 }
 
 .project-collage {
@@ -128,20 +120,7 @@ nav a[aria-current="page"]::after {
 .projects-section {
 	width: min(1180px, calc(100% - 40px));
 	margin: 0 auto;
-	padding: 106px 0 112px;
-}
-
-.projects-heading {
-	max-width: 720px;
-	margin-bottom: 44px;
-}
-
-.projects-heading h2 {
-	margin: 0;
-	color: var(--navy);
-	font-size: clamp(2rem, 4vw, 3.45rem);
-	letter-spacing: -0.045em;
-	line-height: 1.08;
+	padding: 78px 0 112px;
 }
 
 .project-list {
@@ -293,7 +272,7 @@ nav a[aria-current="page"]::after {
 	}
 
 	.projects-section {
-		padding: 78px 0;
+		padding: 56px 0 78px;
 	}
 
 	.project-list {
