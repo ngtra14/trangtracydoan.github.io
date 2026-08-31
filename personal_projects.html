@@ -26,13 +26,17 @@
 		<main>
 			<section class="page-hero" aria-labelledby="page-title">
 				<div class="page-hero-shell">
-					<p class="section-kicker">Personal projects</p>
-					<h1 id="page-title">Projects built around <span>real questions.</span></h1>
-					<p>
-						A closer look at how I use machine learning, natural language processing,
-						and business analysis to explore messy problems and turn data into something useful.
-					</p>
-					<a class="text-link" href="#projects">Explore the work <span aria-hidden="true">↓</span></a>
+					<div class="page-hero-copy">
+						<p class="section-kicker">Personal projects</p>
+						<h1 id="page-title">Projects built around <span>real questions.</span></h1>
+						<p>
+							A closer look at how I use machine learning, natural language processing,
+							and business analysis to explore messy problems and turn data into something useful.
+						</p>
+						<a class="text-link" href="#projects">Explore the work <span aria-hidden="true">↓</span></a>
+					</div>
+
+					<div class="project-collage" data-project-collage hidden aria-label="Preview of Trang Doan’s featured personal projects"></div>
 				</div>
 			</section>
 
@@ -43,7 +47,8 @@
 				</div>
 
 				<div class="project-list">
-					<article class="project-feature">
+					<!-- Use data-featured-rank="1", "2", or "3" to choose and order the hero collage projects. -->
+					<article id="restaurant-project" class="project-feature" data-featured-rank="1">
 						<a class="project-feature-media" href="https://github.com/ngtra14/Restaurant-Recommender-App" target="_blank" rel="noopener noreferrer" aria-label="Explore the Restaurant Recommender repository">
 							<img src="docs/yelp.webp" alt="Restaurant recommendation project visualization" width="720" height="480" />
 						</a>
@@ -69,7 +74,7 @@
 						</div>
 					</article>
 
-					<article class="project-feature">
+					<article id="spotify-project" class="project-feature" data-featured-rank="2">
 						<a class="project-feature-media" href="docs/Spotify Tracks Popularity Report.docx.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read the Spotify tracks popularity report">
 							<img src="docs/spotify.webp" alt="Spotify music popularity project visualization" width="720" height="480" loading="lazy" />
 						</a>
@@ -94,7 +99,7 @@
 						</div>
 					</article>
 
-					<article class="project-feature">
+					<article id="ecommerce-project" class="project-feature" data-featured-rank="3">
 						<a class="project-feature-media" href="docs/E-commerce Product Classification Using NLP.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read the e-commerce product classification report">
 							<img src="docs/amazon.webp" alt="E-commerce product classification project visualization" width="720" height="480" loading="lazy" />
 						</a>
@@ -139,5 +144,7 @@
 			<p>Trang Doan · Analytics portfolio</p>
 			<a href="#top">Back to top ↑</a>
 		</footer>
+
+		<script src="assets/js/projects.js"></script>
 	</body>
 </html>
