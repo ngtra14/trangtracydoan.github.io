@@ -3350,8 +3350,25 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				display: block;
+				position: relative;
+				padding: 0.5em;
 			}
+
+				#nav ul {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+				}
+
+					#nav ul li {
+						margin: 0 0.1em;
+					}
+
+						#nav ul li a {
+							padding: 0 0.65em;
+							font-size: 0.9em;
+						}
 
 				#nav + #main {
 					padding-top: 0;
